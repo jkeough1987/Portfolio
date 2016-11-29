@@ -50,143 +50,269 @@
 
   <!-- Your styles -->
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
     <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-    </div>
-    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-      <h3>Joshua Keough</h3>
-    </div>
-    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+      <h1 class="mdl-layout-title">Joshua Keough</h1>
     </div>
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-      <a href="#overview" class="mdl-layout__tab is-active">Joshua Keough</a>
-      <a href="#Contacts" class="mdl-layout__tab">Contacts</a>
+      <a href="#overview" class="mdl-layout__tab is-active">About</a>
       <a href="#Work" class="mdl-layout__tab">Work</a>
       <a href="#Skills" class="mdl-layout__tab">Skills</a>
+      <a href="#Contacts" class="mdl-layout__tab">Contacts</a>
     </div>
   </header>
   <main class="mdl-layout__content">
     <div class="mdl-layout__tab-panel is-active" id="overview">
       <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-
         <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+          <div class="">
+            <div class="header-card-image mdl-card mdl-shadow--2dp">
+              <img src="Josh.jpg" alt="Personal Image">
+            </div>
+          </div>
           <div class="mdl-card__supporting-text">
             <h4>Bio</h4>
-            Hey everyone, im Joshua Keough a recently launched graduate from <a href="https://www.theironyard.com/">The
-            Iron Yard.</a>
-            I was an Electrician for 7 years who decided to upgrade the life of his family and now
-            I am taking my life/career to the next level by exploring fun and new things in the web dev world. I am a
-            father of 3 and they are
-            the motivation behind it all.
+            <p>Hey everyone, im Joshua Keough a recently launched graduate from <a href="https://www.theironyard.com/">The
+              Iron Yard.</a> Self-motivated and team-oriented developer looking to expand skills and knowledge with the
+              guidance of a great company.I was an Electrician for 7 years who decided to upgrade the life of his
+              family and nowI am taking my life/career to the next level by exploring fun and new things in the
+              web dev world. I am a father of 3 and they are the motivation behind it all.</p>
           </div>
         </div>
       </section>
-
-
     </div>
-    <div class="mdl-layout__tab-panel" id="Contacts">
-      <section class="section--center mdl-grid mdl-grid--no-spacing">
-        <div class="mdl-cell mdl-cell--12-col">
-          <h4>Contacts</h4>
-          Im always in the process of learning but if you would like to contact me about a job feel free to find me.
-          <ul class="toc">
-            <a href="https://www.linkedin.com/in/jkeough1987">LinkedIn</a>
-            <a href="https://github.com/jkeough1987">GitHub</a>
-            <a href="mailto:jkeough1987@live.com?Subject=Web%20Dev" target="_top">Send me an Email jkeough1987@live.com</a>
-            <a href="tel:1-901-336-5063">Call e (901) 336-5063</a>
-          </ul>
-        </div>
-      </section>
-    </div>
+
     <div class="mdl-layout__tab-panel" id="Work">
-      <section class="section--center mdl-grid mdl-grid--no-spacing">
-        <div class="mdl-cell mdl-cell--12-col">
-          <h4>Work</h4>
-          I have been learning mostly backend with java but im expanding in all directions. Bottom to top shows a progression of work. Ill be adding new and better things all the time.
-          <ul class="toc">
-            <a href="https://powerful-reaches-45509.herokuapp.com/">Pollz</a>
-            <a href="http://teamrenegadeping-pong-tracker2000.surge.sh/">Ping Pong Tracker</a>
-            <a href="https://github.com/jkeough1987/SpringCRUD/tree/develop">Job Tracker</a>
-            <a href="https://github.com/jkeough1987/Countries">Countries</a>
-            <a href="https://github.com/jkeough1987/Banking">ATM Banking</a>
-          </ul>
-
-
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+        <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+          <div class="mdl-card__supporting-text">
+            <h4>Work</h4>
+            <p>I have been learning mostly backend with java but im expanding in all directions. Bottom to top shows a
+              progression of work. Ill be adding new and better things all the time.</p>
+            <ul class="toc">
+              <a href="https://powerful-reaches-45509.herokuapp.com/">Pollz</a>
+              <a href="http://teamrenegadeping-pong-tracker2000.surge.sh/">Ping Pong Tracker</a>
+              <a href="https://github.com/jkeough1987/SpringCRUD/tree/develop">Job Tracker</a>
+              <a href="https://github.com/jkeough1987/Countries">Countries</a>
+              <a href="https://github.com/jkeough1987/Banking">ATM Banking</a>
+            </ul>
+          </div>
         </div>
       </section>
     </div>
+
     <div class="mdl-layout__tab-panel" id="Skills">
-      <section class="section--center mdl-grid mdl-grid--no-spacing">
-        <div class="mdl-cell mdl-cell--12-col">
-          <h4>Skills</h4>
-          Still alot more coming but here is a list of things ive currently learned/learning.
-          <ul class="toc">
-            <p>Java</p>			<p>Google</p>		<p>Youtube</p>		    <p>Spark</p>
-            <p>Spring</p>		<p>Mustache	Scala</p>			    <p>Play</p>
-            <p>HTML</p>			<p>Git</p>			  <p>PostgresSQL</p>		<p>IntelliJ</p>
-          </ul>
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+        <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+          <div class="mdl-card__supporting-text">
+            <h4>Skills</h4>
+            <p>Still alot more coming but here is a list of things ive currently learned/learning.</p>
+            <ul class="toc ">
+              <div class="content-grid mdl-grid">
+                <div class="mdl-cell">
+                  <div class="java-hover">
+                    <a class="java-link" href="https://www.java.com/en/">Java</a>
+                    <div class="java-description">
+                      <p class="java-text">A general-purpose computer programming language designed to
+                        produce programs that will run on any computer system.</p>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="mdl-cell">
+                  <div class="google-hover">
+                    <a class="google-link" href="https://www.google.com/">Google</a>
+                    <div class="google-description">
+                      <p class="google-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="mdl-cell">
+                  <div class="youtube-hover">
+                    <a class="youtube-link" href="https://www.youtube.com/">Youtube</a>
+                    <div class="youtube-description">
+                      <p class="youtube-text">YouTube is a free video sharing website that makes it easy to watch
+                        online videos.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="spring-hover">
+                    <a class="spring-link" href="https://projects.spring.io/spring-boot/">Spring Boot</a>
+                    <div class="spring-description">
+                      <p class="spring-text">Spring Boot makes it easy to create stand-alone, production-grade
+                        Spring based Applications that you can "just run".</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="mustache-hover">
+                    <a class="mustache-link" href="https://mustache.github.io/">Mustache</a>
+                    <div class="mustache-description">
+                      <p class="mustache-text">Mustache is a logic-less template syntax. It can be used for HTML,
+                        config files, source code - anything. It works by expanding tags in a template using values
+                        provided in a hash or object.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="scala-hover">
+                    <a class="scala-link" href="https://www.scala-lang.org/">Scala</a>
+                    <div class="scala-description">
+                      <p class="scala-text">Like Java, Scala is object-oriented, and uses a curly-brace syntax
+                        reminiscent of the C programming language.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="spark-hover">
+                    <a class="spark-link" href="https://www.youtube.com/">Spark</a>
+                    <div class="spark-description">
+                      <p class="spark-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="play-hover">
+                    <a class="play-link" href="https://www.youtube.com/">Play</a>
+                    <div class="play-description">
+                      <p class="play-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="html-hover">
+                    <a class="html-link" href="https://www.youtube.com/">HTML</a>
+                    <div class="html-description">
+                      <p class="html-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="git-hover">
+                    <a class="git-link" href="https://www.youtube.com/">Github</a>
+                    <div class="git-description">
+                      <p class="git-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="postgres-hover">
+                    <a class="postgres-link" href="https://www.youtube.com/">PostgresSQL</a>
+                    <div class="postgres-description">
+                      <p class="postgres-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell">
+                  <div class="intellij-hover">
+                    <a class="intellij-link" href="https://www.youtube.com/">Intelli J</a>
+                    <div class="intellij-description">
+                      <p class="intellij-text">Search for information about (someone or something) on the Internet
+                        using the search engine Google.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
     </div>
-    <footer class="mdl-mega-footer">
-      <div class="mdl-mega-footer--middle-section">
-        <div class="mdl-mega-footer--drop-down-section">
-          <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer--heading">Features</h1>
-          <ul class="mdl-mega-footer--link-list">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Updates</a></li>
-          </ul>
+
+    <div class="mdl-layout__tab-panel" id="Contacts">
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+        <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+          <div class="mdl-card__supporting-text">
+            <h4>Contacts</h4>
+            <p>Im always in the process of learning but if you would like to contact me about
+              a job feel free to find me.</p>
+            <ul class="toc">
+              <a href="https://www.linkedin.com/in/jkeough1987">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+              </a>
+              <a href="https://github.com/jkeough1987">
+                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+              </a>
+              <a href="mailto:jkeough1987@live.com?Subject=Web%20Dev" target="_top">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i> Send me an Email to jkeough1987@live.com
+              </a>
+              <a href="tel:1-901-336-5063">
+                <i class="fa fa-mobile fa-lg" aria-hidden="true"></i> Call me (901) 336-5063
+              </a>
+            </ul>
+          </div>
         </div>
-        <div class="mdl-mega-footer--drop-down-section">
-          <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer--heading">Details</h1>
-          <ul class="mdl-mega-footer--link-list">
-            <li><a href="#">Spec</a></li>
-            <li><a href="#">Tools</a></li>
-            <li><a href="#">Resources</a></li>
-          </ul>
-        </div>
-        <div class="mdl-mega-footer--drop-down-section">
-          <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer--heading">Technology</h1>
-          <ul class="mdl-mega-footer--link-list">
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Patterns</a></li>
-            <li><a href="#">Usage</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contracts</a></li>
-          </ul>
-        </div>
-        <div class="mdl-mega-footer--drop-down-section">
-          <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer--heading">FAQ</h1>
-          <ul class="mdl-mega-footer--link-list">
-            <li><a href="#">Questions</a></li>
-            <li><a href="#">Answers</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="mdl-mega-footer--bottom-section">
-        <div class="mdl-logo">
-          More Information
-        </div>
-        <ul class="mdl-mega-footer--link-list">
-          <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Privacy and Terms</a></li>
-        </ul>
-      </div>
-    </footer>
+      </section>
+    </div>
   </main>
+
+  <footer class="mdl-mega-footer">
+    <div class="mdl-mega-footer--middle-section">
+      <div class="content-grid mdl-grid">
+        <div class="mdl-cell">
+          <div class="mdl-mega-footer--drop-down-section">
+            <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer--heading">Contact</h1>
+            <ul class="mdl-mega-footer--link-list">
+              <li>
+                <a href="https://www.linkedin.com/in/jkeough1987">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/jkeough1987">
+                  <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="mailto:jkeough1987@live.com?Subject=Web%20Dev" target="_top">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i> Send me an Email to jkeough1987@live.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:1-901-336-5063">
+                  <i class="fa fa-mobile fa-lg" aria-hidden="true"></i> Call Me (901) 336-5063
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mdl-cell">
+          <div class="mdl-mega-footer--drop-down-section">
+            <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer--heading">Resume</h1>
+            <ul class="mdl-mega-footer--link-list">
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1IoaV4gPy5fN7BG4Oh5jFITe0p72Av5Z4HEAHxjdeM9w/edit?usp=sharing">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
 
 <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>

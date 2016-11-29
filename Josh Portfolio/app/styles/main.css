@@ -19,6 +19,10 @@ Note: any .css or .scss files included in the 'styles' directory
 will be correctly compiled during `gulp serve` and `gulp`
  */
 
+img {
+  max-width: 100%;
+}
+
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
@@ -180,9 +184,6 @@ html, body {
 .mdl-demo .mdl-card .mdl-card__supporting-text > h3:first-child {
   margin-bottom: 24px;
 }
-.mdl-demo .mdl-layout__tab-panel:not(#overview) {
-  background-color: white;
-}
 .mdl-demo #features section {
   margin-bottom: 72px;
 }
@@ -211,3 +212,250 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+.mdl-layout-title {
+  font-size: 56px;
+}
+
+.header-card-image {
+  max-width: 10rem;
+  min-height: 0;
+}
+
+.mdl-layout {
+  display: flex;
+  flex-direction: column;
+  positin: relative;
+  min-height: 100vh;
+}
+
+.java-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:18%;
+  top: 34%;
+}
+
+.java-text{
+  padding: 3px;
+}
+
+.java-hover:hover .java-description {
+  visibility: visible;
+}
+
+.spring-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:18%;
+  top: 34%;
+}
+
+.spring-text{
+  padding: 3px;
+}
+
+.spring-hover:hover .spring-description {
+  visibility: visible;
+}
+
+.spark-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:18%;
+  top: 34%;
+}
+
+.spark-text{
+  padding: 3px;
+}
+
+.spark-hover:hover .spark-description {
+  visibility: visible;
+}
+
+.git-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:18%;
+  top: 34%;
+}
+
+.git-text{
+  padding: 3px;
+}
+
+.git-hover:hover .git-description {
+  visibility: visible;
+}
+
+.google-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:46%;
+  top: 34%;
+}
+
+.google-text{
+  padding: 3px;
+}
+
+.google-hover:hover .google-description {
+  visibility: visible;
+}
+
+.mustache-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:46%;
+  top: 34%;
+}
+
+.mustache-text{
+  padding: 3px;
+}
+
+.mustache-hover:hover .mustache-description {
+  visibility: visible;
+}
+
+.play-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:46%;
+  top: 34%;
+}
+
+.play-text{
+  padding: 3px;
+}
+
+.play-hover:hover .play-description {
+  visibility: visible;
+}
+
+.postgres-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:46%;
+  top: 34%;
+}
+
+.postgres-text{
+  padding: 3px;
+}
+
+.postgres-hover:hover .postgres-description {
+  visibility: visible;
+}
+
+.youtube-description{
+   width: 10rem;
+   background: cornsilk;
+   border: 1px solid black;
+   z-index: 9;
+   visibility: hidden;
+   position: absolute;
+   left:74%;
+   top: 34%;
+ }
+
+.youtube-text{
+  padding: 3px;
+}
+
+.youtube-hover:hover .youtube-description {
+  visibility: visible;
+}
+
+.scala-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:74%;
+  top: 34%;
+}
+
+.scala-text{
+  padding: 3px;
+}
+
+.scala-hover:hover .scala-description {
+  visibility: visible;
+}
+
+.html-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:74%;
+  top: 34%;
+}
+
+.html-text{
+  padding: 3px;
+}
+
+.html-hover:hover .html-description {
+  visibility: visible;
+}
+
+.intellij-description{
+  width: 10rem;
+  background: cornsilk;
+  border: 1px solid black;
+  z-index: 9;
+  visibility: hidden;
+  position: absolute;
+  left:74%;
+  top: 34%;
+}
+
+.intellij-text{
+  padding: 3px;
+}
+
+.intellij-hover:hover .intellij-description {
+  visibility: visible;
+}
+
+
+
